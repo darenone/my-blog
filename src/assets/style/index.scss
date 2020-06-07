@@ -1,0 +1,13 @@
+// index.scss
+// 作为一个入口，引入需要用到的css文件
+
+// 样式重置
+@import './reset.scss';
+// 公共样式
+@import './common.scss';
+// 页面样式
+// @import './views/view1.scss';
+// 组件样式
+@import './components/header.scss';
+// elementUI样式重置
+// @import './elementUI/reset.scss';

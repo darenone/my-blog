@@ -1,13 +1,17 @@
 <template>
   <div class="container">
-    <div>顶部</div>
+    <div>
+      <header-widget></header-widget>
+    </div>
     <div>中间</div>
     <div>底部</div>
   </div>
 </template>
 
 <script>
+import headerWidget from '@/components/header.vue'
 export default {
+  components: { headerWidget },
   name: 'HelloWorld',
   props: {
     msg: String
